@@ -35,7 +35,7 @@ contiune:
 	
 	mov rax, 42
 	mov rdi, r12
-	lea rsi, [rel struct_sockaddr]
+	lea rsi, [rbp + 0x200]
 	mov rdx, 16
 	syscall
 	
